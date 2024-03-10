@@ -1,0 +1,198 @@
+{
+    "suggested": [
+        {
+            "id": "1",
+            "weapon": {
+                "type": "AK-47",
+                "name": "Redline",
+                "exterior": "Field-Tested",
+                "float": 0.177,
+                "pattern": 691,
+                "image": null,
+                "price": 597,
+                "suggested": 987
+            },
+            "seller": {
+                "id":"1",
+                "name":"JohnDoe 1337_ gggggggg",
+                "image": null,
+                "rating": 1.33
+            }
+        },
+        {
+            "id": "2",
+            "weapon": {
+                "type": "AWP",
+                "name": "Asiimov",
+                "exterior": "Field-Tested",
+                "float": 0.882,
+                "pattern": 691,
+                "image": null,
+                "price": 597,
+                "suggested": 987
+            },
+            "seller": {
+                "id":"1",
+                "name":"JohnDoe 1337_",
+                "image": null,
+                "rating": 3.65
+            }
+        },
+        {
+            "id": "3",
+            "weapon": {
+                "type": "M4A1-S",
+                "name": "Phantom",
+                "exterior": "Field-Tested",
+                "float": 0.004,
+                "pattern": 691,
+                "image": null,
+                "price": 597,
+                "suggested": 987
+            },
+            "seller": {
+                "id":"1",
+                "name":"JohnDoe 1337_",
+                "image": null,
+                "rating": 4.91
+            }
+        },
+        {
+            "id": "4",
+            "weapon": {
+                "type": "Glock-18",
+                "name": "Fade",
+                "exterior": "Minimal Wear",
+                "float": 0.970,
+                "pattern": 133,
+                "image": null,
+                "price": 10349,
+                "suggested": 32100
+            },
+            "seller": {
+                "id":"1",
+                "name":"JohnDoe 1337_",
+                "image": null,
+                "rating": 3.99
+            }
+        },
+        {
+            "id": "5",
+            "weapon": {
+                "type": "Glock-18",
+                "name": "Fade",
+                "exterior": "Minimal Wear",
+                "float": 0.970,
+                "pattern": 133,
+                "image": null,
+                "price": 10349,
+                "suggested": 32100
+            },
+            "seller": {
+                "id":"1",
+                "name":"JohnDoe 1337_",
+                "image": null,
+                "rating": 3.99
+            }
+        }
+    ],
+
+
+    "best": [
+        {
+            "id": "1",
+            "weapon": {
+                "type": "AK-47",
+                "name": "Redline",
+                "exterior": "Field-Tested",
+                "float": 0.320,
+                "pattern": 691,
+                "image": null,
+                "price": 597,
+                "suggested": 987
+            },
+            "seller": {
+                "id":"1",
+                "name":"JohnDoe 1337_",
+                "image": null,
+                "rating": 4.91
+            }
+        },
+        {
+            "id": "2",
+            "weapon": {
+                "type": "Mag-7",
+                "name": "Bulldozer",
+                "exterior": "Factory New",
+                "float": 0.643,
+                "pattern": 691,
+                "image": null,
+                "price": 597,
+                "suggested": 987
+            },
+            "seller": {
+                "id":"1",
+                "name":"JohnDoe 1337_",
+                "image": null,
+                "rating": 4.25
+            }
+        },
+        {
+            "id": "3",
+            "weapon": {
+                "type": "AK-47",
+                "name": "Fire Serpent",
+                "exterior": "Field-Tested",
+                "float": 0.241,
+                "pattern": 691,
+                "image": null,
+                "price": 597,
+                "suggested": 987
+            },
+            "seller": {
+                "id":"1",
+                "name":"JohnDoe 1337_",
+                "image": null,
+                "rating": 4.91
+            }
+        },
+        {
+            "id": "4",
+            "weapon": {
+                "type": "USP-S",
+                "name": "Whiteout",
+                "exterior": "Battle-Scarred",
+                "float": 0.790,
+                "pattern": 773,
+                "image": null,
+                "price": 1578,
+                "suggested": 1032
+            },
+            "seller": {
+                "id":"1",
+                "name":"JohnDoe 1337_",
+                "image": null,
+                "rating": 4.91
+            }
+        },
+        {
+            "id": "5",
+            "weapon": {
+                "type": "USP-S",
+                "name": "Whiteout",
+                "exterior": "Battle-Scarred",
+                "float": 0.790,
+                "pattern": 773,
+                "image": null,
+                "price": 1578,
+                "suggested": 1032
+            },
+            "seller": {
+                "id":"1",
+                "name":"JohnDoe 1337_",
+                "image": null,
+                "rating": 4.91
+            }
+        }
+    ]
+}

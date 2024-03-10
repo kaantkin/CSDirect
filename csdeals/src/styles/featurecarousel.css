@@ -1,0 +1,204 @@
+.fc-root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: inherit;
+    width: 79.5%;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.fc-items-wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.fc-root .fc-items {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    column-gap: 3px;
+    justify-content: flex-start;
+    transition: transform .4s ease;
+}
+
+.fc-carousel-wrapper {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: min-content;
+    position: relative;
+}
+
+.carousel-btn {
+    position: absolute;
+    height: 100%;
+    font-size: 50px;
+    user-select: none;
+    position: absolute;
+    cursor: pointer;
+    transition: background-color .2s ease;
+}
+.carousel-btn:hover {
+    background-color: #2e2f49;
+}
+
+.next-btn {
+    right: -52px;
+}
+
+.back-btn {
+    left: -52px;
+}
+
+.card {
+    min-width: 300px;
+    height: min-content;
+    background-color: #2e2f49;
+}
+
+.card .content {
+    max-height: 100%;
+    max-width: 100%;
+    padding: 20px 40px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.item-tradeable p {
+    font-size: 13px;
+}
+
+.item-image {
+    border-radius: 1px solid red;
+    background-color: #B1B2B5;
+    margin-top: 20px;
+    width: 100%;
+    height: 125px;
+    align-self: center;
+}
+
+.suggested {
+    font-size: 12px;
+    color: #7d7d7d;
+    margin: 0;
+}
+
+.actualprice {
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.wtype {
+    font-size: 13px;
+    margin-bottom: 0;
+    color: #728fef;
+}
+
+.wname {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.wwear {
+    margin: 2px;
+    font-size: 13px;
+    color: #7d7d7d;
+}
+
+.wearinfo-wrapper {
+    display: flex;
+    flex-direction: row;
+    column-gap: 14px;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.wearinfo-wrapper p {
+    font-size: 13px;
+}
+
+.wear-bar-bg {
+    height: 7px;
+    border: none;
+    width: 175px;
+    position: relative;
+}
+
+.wear-bar-bg .wear-bar {
+    height: inherit;
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Wear bar span styling */
+.worst {
+    width: 55%;
+    background-color: #f04444;
+}
+.bad {
+    width: 7%;
+    background-color: #f9711b;
+}
+.ok {
+    width: 23%;
+    background-color: #e9b308;
+}
+.good {
+    width: 8%;
+    background-color: #84cc18;
+}
+.best {
+    width: 7%;
+    background-color: #22c65f;
+}
+/**/
+
+.wear-ping {
+    position: absolute;
+    margin-left: -10px; /* SVG box is larger than actual element so this is needed to make positioning more accurate */
+    margin-top: -5px; /* Same as above */
+}
+
+.float-arrow {
+    color: white;
+    font-size: 20px;
+}
+
+.item-seller {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 13px 0 5px 0;
+}
+
+.item-seller .wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.seller-image {
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    background-color: #B1B2B5;
+    margin-right: 15px;
+}
+
+.seller-name {
+    font-size: 13px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.seller-rating {
+    font-size: 13px;
+    margin: 0;
+}

@@ -1,0 +1,187 @@
+.login-root {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191a2d;
+}
+
+#exit {
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    right: 200px;
+}
+
+.x-icon {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    transition: color .2s ease;
+}
+.x-icon:hover {
+    color: #5c7dee;
+}
+
+.login-card {
+    width: 450px;
+    height: 590px;
+    background-color: #2e2f49;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.image {
+    width: 120px;
+    height: 120px;
+    background-color: aliceblue;
+}
+
+.input-root {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    row-gap: 15px;
+    margin-top: 50px;
+}
+
+.input-bar {
+    width: 75%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 0 10px 0 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+
+    & input {
+        width: 100%;
+        height: 100%;
+        border: none;
+        background: none;
+        padding: 0 5px 0 13px;
+        color: white;
+        font-size: 15px;
+    }
+    & input:focus {
+        user-select: none;
+        outline: none;
+    }
+}
+
+.ib-icon {
+    margin: 0;
+}
+
+.proceed-btn {
+    width: 60%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #5c7dee;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color .2s ease;
+}
+.proceed-btn:hover {
+    background-color: #47589c;
+}
+
+.forgot-pwd {
+    border: none;
+    background: none;
+    color: #767676;
+    cursor: pointer;
+    font-size: 10px;
+    margin-top: 12px;
+}
+
+.divider-h {
+    width: 65%;
+    height: 1px;
+    background-color: #767676;
+    margin: 20px 0 20px 0;
+}
+
+.other-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+    & button {
+        width: 60%;
+        height: 40px;
+        background: black;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-weight: 600;
+        font-size: 14px;
+        cursor: pointer;
+    }
+}
+
+#steam {
+    background-color: #0e1c31;
+    transition: background-color .2s ease;
+}
+#steam:hover {
+    background-color: #1a2c46;
+}
+
+#orp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & p {
+        margin: 15px 0 0 0;
+        color: white;
+        font-size: 12px;
+    }
+}
+
+#signup {
+    background: none;
+    width: max-content;
+}
+
+/* Hover animation for 'sign up' button */
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+}
+  
+.hover-underline-animation::after {
+content: '';
+position: absolute;
+width: 100%;
+transform: scaleX(0);
+height: 1.5px;
+bottom: 0;
+left: 0;
+background-color: #ffffff;
+transform-origin: bottom right;
+transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+transform: scaleX(1);
+transform-origin: bottom left;
+}
